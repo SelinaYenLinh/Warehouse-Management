@@ -63,9 +63,12 @@ Key features:
 5. Logs are automatically written into `Audit_Log`.  
 6. Optionally trigger **Sync to Google Sheet** (if connected).
 
-![](Images/AfterLoadFile.jpg)
-![](Images/Informationview.jpg)
-
----
 
 ## 🧩 Dependencies
+
+- **Excel 2019 / 365** (with VBA enabled)
+- **Windows 10+**
+- **Internet connection** (for cloud sync)
+- Optional: Google Apps Script endpoints  
+  - `/exists_machine`  
+  - `/Audit_Log`
